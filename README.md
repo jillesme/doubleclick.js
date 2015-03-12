@@ -11,7 +11,7 @@ threshold      : [number | 300] - time to wait for the second click before singl
 singleClick(ev): [fn]           - the function to run after a single click
 doubleClick(ev): [fn]           - the function to run after a double click
 
-```lang-javascript```
+```javascript
 var config = {
   threshold: 200,
   singleClick: function (ev) { console.log('Single Click!!!'); },
@@ -21,3 +21,4 @@ var config = {
 document.querySelector('.element').addEventListener('click', doubleClick(config), false);
 ```
 
+Or see the [demo here](http://jsfiddle.net/jillesme/4ae2owby/).
