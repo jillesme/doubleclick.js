@@ -1,6 +1,6 @@
 # doubleclick.js
 
-Adds double click functionality to `click` event listeners. 
+The trouble with the dblclick event is that it would also trigger a click event if it's attach to the element.
 
 ## How to use
 
@@ -21,4 +21,4 @@ var config = {
 document.querySelector('.element').addEventListener('click', doubleClick(config), false);
 ```
 
-Or see the [demo here](http://jsfiddle.net/jillesme/4ae2owby/).
+Or see the [demo here](https://jsfiddle.net/jillesme/79nwwwfv/).
